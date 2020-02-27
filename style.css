@@ -1,0 +1,21 @@
+@font-face{
+    src: url(fonts/OdibeeSans-Regular.ttf);
+    font-family:Odibee Sans;
+}
+body{
+    font-family: Amatic SC ;
+    
+}
+.name{
+    color: orange;
+    font-weight:bolder;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;;
+}
+.half-width img{
+    width: 100%;
+} 
