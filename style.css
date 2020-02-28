@@ -4,7 +4,11 @@
 }
 body{
     font-family: Amatic SC ;
+    margin: 0px;
     
+}
+p{
+    color: dimgray;
 }
 .name{
     color: orange;
@@ -14,8 +18,30 @@ body{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding-left: 2%;;
+    padding-left: 2%;
+    display:block;
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
 } 
+.link-button{
+    text-decoration: none;
+    /* background-color: orange; */
+    background-image:linear-gradient(45deg,lightSalmon,tomato); /*for background color gradeint with an angle */
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
