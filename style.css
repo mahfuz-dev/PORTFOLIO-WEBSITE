@@ -11,8 +11,10 @@ p{
     color: dimgray;
 }
 .name{
-    color: orange;
     font-weight:bolder;
+}
+.orange-highlight{
+    color: orange;
 }
 .half-width{
     width: 40%;
@@ -29,7 +31,10 @@ p{
     background-repeat: no-repeat;
 }
 section{
-    height: 500px;
+    padding-bottom:50px;
+    height: 700px;
+    width :100%;
+    overflow: hidden;
 } 
 .link-button{
     text-decoration: none;
@@ -44,4 +49,37 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.ex{
+    margin-left: 30px;
+}
+.single-experience{
+     box-shadow: 10px 10px 40px gray ;/*here,first two parameter(10px 10px)-shadows size,then 
+                                    third parameter(40px) spreading limit then color */
+     padding: 32px;
+     border-radius: 7px;  /*this is not must*/
+     height: 40%; /* Not must.We make two divs with same height(px or %)  */
+    background-color: white; /*  remove it once see */
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);   /* changes color of border with gradient */
+    /* border image we added doesn't visible.For making it visible using the slice */
+    border-image-slice:1 ; //one slice
+}
+#pro-web{
+    /* same as #full-stack */
+    border-left:7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice:1 ;
+}
+footer p{
+    text-align: center;
+    color: black;
+    font-weight: bold;
 }
